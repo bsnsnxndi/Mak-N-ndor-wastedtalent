@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="hu">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Egy márka ami jellemzi a 21.századot!">
+    <meta name="keywords" content="luxus,divat, rendelés, online rendelés, házhozszállítás, kapcsolat, menü">
+    <meta name="author" content="Luxus ruha ">
+    <title>WastedTalent</title>
+    <link rel="stylesheet" href="style2.css">
+    
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Kezdőoldal</a></li>
+               
+
+            </ul>
+            
+        </nav>
+      
+        <h2>Rendelés</h2>
+    <section id="order">
+        <div class="login_form">
+            <div class="left">
+                <img src="Képernyőkép 2024-10-17 094134.png">
+            </div>
+        
+        <form id="orderForm">
+            <label for="name">Név:</label>
+            <input type="text" id="name" name="name" required><br><br>
+
+ 
+            <label for="email">Email cím:</label>
+            <input type="email" id="email" name="email" required><br><br>
+ 
+            <label for="phone">Telefonszám:</label>
+            <input type="tel" id="phone" name="phone" required><br><br>
+ 
+            <label for="address">Szállítási cím:</label>
+            <input type="text" id="address" name="address" required><br><br>
+ 
+            <label for="size">Méret</label>
+            <select id="size" name="size" required>
+                <option value="card">XS</option>
+                <option value="cash">S</option>
+                <option value="card">M</option>
+                <option value="card">L</option>
+                <option value="card">XL</option>
+                
+            </select><br><br>
+ 
+            
+ 
+            <label for="payment">Fizetési mód:</label>
+            <select id="payment" name="payment" required>
+                <option value="card">Utánvétel</option>
+                
+            </select><br><br>
+ 
+            <label for="notes">Megjegyzés:</label>
+            <textarea id="notes" name="notes" rows="4" cols="50"></textarea><br><br>
+ 
+            <button type="submit">Rendelés leadása</button>
+        </form>
+        <p id="confirmation"></p>
+    </section>
+   
+    <section id="contact">
+        <h2></h2>
+        <p></p>
+        <p></p>
+        <p></p>
+    </section>
+ 
+    <footer>
+        <div class="footer_main">
+            <div class="tag">
+                <h1>kapcsolatok</h1>
+                <a href="#"><i class="fa-solid fa-phone"></i>+36 88 8777</a>
+                <a href="#"><i class="fa-solid fa-envelope"></i>wastedtalent</a>
+            </div>
+ 
+    <script src="script.js"></script>
+</body>
+</html>
